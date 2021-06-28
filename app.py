@@ -143,8 +143,8 @@ def proccess_image(message: telebot.types.Message):
     except Exception as e:
         bot.reply_to(message, "Ошибка обработки\n{}".format(str(e)))
 
-    #os.unlink(filename)
-    #os.unlink('interpolated_' + filename)
+    os.unlink(filename)
+    os.unlink('interpolated_' + filename)
 
 
 @bot.message_handler(content_types=['photo'])
