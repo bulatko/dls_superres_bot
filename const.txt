@@ -1,0 +1,7 @@
+API_TOKEN = '1811301586:AAFDA8afYrW3eBYNQ4hqx97OeFaM-j5Xa1M'
+MY_ID = '171961446'
+URL = 'https://dls-tg-bot.herokuapp.com/'
+DB_USER = 'root'
+DB_PASS = '12345678'
+DB_HOST = 'localhost'
+DB_NAME = 'DB' echo
